@@ -14,7 +14,7 @@ module PolyMult #(
 
     datapath #(
         .WIDTH(WIDTH),
-        .L(16)
+        .L(8)
     ) u_datapath (
         .clk(clk),
         .rst(rst),
