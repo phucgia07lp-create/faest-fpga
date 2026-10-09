@@ -89,7 +89,7 @@ module tb_PolyMult;
         #10;
 
         $display("\n==================================================================");
-        $display("     BẮT ĐẦU MÔ PHỎNG GF128 WITH AUTHOR TEST VECTORS              ");
+        $display("     Verify             ");
         $display("==================================================================\n");
 
         // --- SET 1 (Tác giả) ---[cite: 5]
@@ -113,7 +113,7 @@ module tb_PolyMult;
         // TỔNG KẾT
         $display("==================================================================");
         if (error_count == 0) begin
-            $display("  => TẤT CẢ TEST VECTORS CỦA TÁC GIẢ ĐỀU PASS! [SUCCESS]");
+            $display("  PASS");
         end else begin
             $display("  => CÓ %0d KẾT QUẢ BỊ LỖI! [FAILED]", error_count);
         end
